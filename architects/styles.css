@@ -55,7 +55,7 @@
 }
 
 .navbar,
-.banner {
+.banner,footer {
     max-width: 1440px;
     margin: 0 auto;
     /* border: 1px solid black; */
@@ -198,12 +198,31 @@ main>section {
 .features{
     gap: 100px;
 }
-
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.feature-arcitect img{
+    width: 100%;
+}
+.footer-section{
+    text-align: center;
+    padding: 38px 0;
+    margin-top: 110px;
+    margin-bottom: 216px;
+}
 @media screen and (max-width:576px) {
 
     .navbar,
     .nav-links,
-    .teams {
+    .teams,.features {
         flex-direction: column;
     }
 
@@ -227,10 +246,14 @@ main>section {
         gap: 50px;
         justify-items: center;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams {
+    .teams, .features {
         flex-direction: column;
     }
 
@@ -243,5 +266,10 @@ main>section {
         justify-items: center;
 
     }
+     #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+  
 
 }
