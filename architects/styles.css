@@ -270,6 +270,15 @@ main>section {
         margin-top: 20px;
         margin-left: 20px;
     }
+    .facts-container{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .section-title,.fact-discription{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
   
 
 }
